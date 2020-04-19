@@ -13,29 +13,28 @@ object "db" as m1
 object "Object" as m2
 object "Order" as m3
 object "OrderLine" as m4
-m1 : <img:"../Data/mysql.png">
-m2 : <img:"../Data/table.png">
-m3 : <img:"../Data/table.png">
-m4 : <img:"../Data/table.png">
+m1 : <img:"../../../Data/mysql.png">
+m2 : <img:"../../../Data/table.png">
+m3 : <img:"../../../Data/table.png">
+m4 : <img:"../../../Data/table.png">
 ' m5 : <img:"../Data/file_excel.png">
 ' m6 : <img:"../Data/folder.png">
 m4 -- m2
 m4 -- m3
 m1 -- m4
-' class DataLayer.ObjectMapper {
-' DBConnection :connection
-' --
+class DataLayer.ObjectMapper {
+DBConnection :connection
 ' getAllObjects():Objects
 ' getAllPizzas():List<Pizza>
 ' getAllProducts():List<Product>
 ' getAllOrders():List<Ordoer>
-' insertPizza(Pizza)
+insertRiddle(Riddle)
 ' deletePizza(Pizza)
 ' deletePizzaById(int id)
 ' insertOrder(Order)
 ' createProduct(Product)
 ' updateOrder(String msg)
-' }
+}
 
 /'
 class Util.DBConnector {
@@ -47,9 +46,9 @@ getConnection():Connection
 /'
 Controller.MainController -- DataLayer.DataHandler
 DataLayer.DataHandler -- DataLayer.ObjectMapper
-DataLayer.ObjectMapper -- Util.DBConnector
 '/
 Util.DBConnector -- m1
+DataLayer.ObjectMapper -- Util.DBConnector
 
 /'
 class DataLayer.DataHandler {
