@@ -1,0 +1,169 @@
+@startuml
+left to right direction
+' Collection <|-- AbstractCollection
+' interface List
+
+' Collection <|- List
+' AbstractCollection <|- AbstractList
+' AbstractList <|-- ArrayList
+
+
+' List <|-- AbstractList
+object "db" as m1
+object "Object" as m2
+object "Order" as m3
+object "OrderLine" as m4
+m1 : <img:"../Data/mysql.png">
+m2 : <img:"../Data/table.png">
+m3 : <img:"../Data/table.png">
+m4 : <img:"../Data/table.png">
+' m5 : <img:"../Data/file_excel.png">
+' m6 : <img:"../Data/folder.png">
+m4 -- m2
+m4 -- m3
+m1 -- m4
+' class DataLayer.ObjectMapper {
+' DBConnection :connection
+' --
+' getAllObjects():Objects
+' getAllPizzas():List<Pizza>
+' getAllProducts():List<Product>
+' getAllOrders():List<Ordoer>
+' insertPizza(Pizza)
+' deletePizza(Pizza)
+' deletePizzaById(int id)
+' insertOrder(Order)
+' createProduct(Product)
+' updateOrder(String msg)
+' }
+
+/'
+class Util.DBConnector {
+Connection:connection
+--
+getConnection():Connection
+}
+'/
+/'
+Controller.MainController -- DataLayer.DataHandler
+DataLayer.DataHandler -- DataLayer.ObjectMapper
+DataLayer.ObjectMapper -- Util.DBConnector
+'/
+Util.DBConnector -- m1
+
+/'
+class DataLayer.DataHandler {
+ObjectMapper:oM
+'createMenu(): Menu
+findAllProducts(): ArrayList<Product>
+createProduct(Product):int id
+
+'findOrderByFiler():List<Order>
+'insertPizza(Pizza)
+'insertOrder(Order)
+}
+/'
+Controller.MainController -- FileCHandler
+class FileCHandler {
+}
+FileCHandler -- m6
+'/
+
+/'
+
+interface DataLayer.DataHandler {
+createMenu(): Menu
+findAllOrders(): Bestilling
+findOrderByFiler():List<Order>
+insertPizza(Pizza)
+insertOrder(Order)
+}
+class DataLayer.ObjectMapper {
+DBConnection :connection
+--
+getAllObjects():Objects
+
+}
+class Util.DBConnector {
+Connection:connection
+--
+getConnection():Connection
+}
+class DataLayer.FileHandler {
+FileReader : fr
+--
+createMenu(): Menu
+findAllOrders(): Bestilling
+findOrderByFiler():List<Order>
+insertPizza(Pizza)
+insertOrder(Order)
+}
+class DataLayer.DBFacade {
+DBConnection : connection
+ObjectMapper :oM
+--
+createMenu(): Menu
+findAllOrders(): Bestilling
+findOrderByFiler():List<Order>
+insertPizza(Pizza)
+insertOrder(Order)
+}
+'/
+/'
+class Controller.MainController {
+MainController : mainController
+List<Bestillinger> : bestillinger
+DataHandler : dataHandler
+--
+createNewPizza():Pizza
+createNewOrder():Order
+
+}
+class Model.Bestillinger {
+}
+class Model.Order {
+}
+class Model.Pizza {
+}
+class View.MenuView {
+}
+Controller.MainController -- Model.Bestillinger
+Controller.MainController -- View.MenuView
+' Controller.MainController -- DataLayer.DataHandler
+' DataLayer.DataHandler o-- DataLayer.DBFacade
+' DataLayer.DataHandler o-- DataLayer.FileHandler
+' DataLayer.DBFacade o--- DataLayer.ObjectMapper
+' DataLayer.ObjectMapper -- Util.DBConnector
+' Util.DBConnector -- m1
+' DataLayer.FileHandler -- m6
+
+/'
+class MainController {
+dataSource : DataSource
+Liste[] Bestillinger
+Liste[] Pizzaer
+--
+runProgram()
+loadPizzas()
+createPizza()
+}
+interface DataSource {
+loadPizzas();
+createPizza();
+}
+class PizzaMapper {
+loadPizzas();
+createPizza();
+}
+
+Main -- MainController
+MainController o-- DataSource
+DataSource <|-- PizzaMapper
+
+' enum TimeUnit {
+' DAYS
+' HOURS
+' MINUTES
+' }
+'/
+@enduml

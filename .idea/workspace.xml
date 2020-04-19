@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8150e37-6977-45f7-b8eb-5e9f9336d898" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CodeIris Favorites" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1amI1OAoGNhC3CefJ31mE8WbOYa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RiddleTest.solveRiddle">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MyRiddle" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiddleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyRiddle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.RiddleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiddleTest.solveRiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyRiddle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.RiddleTest" />
+      <option name="METHOD_NAME" value="solveRiddle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RiddleTest" />
+      <item itemvalue="JUnit.RiddleTest.solveRiddle" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RiddleTest.solveRiddle" />
+        <item itemvalue="JUnit.RiddleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8150e37-6977-45f7-b8eb-5e9f9336d898" name="Default Changelist" comment="" />
+      <created>1587334126128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587334126128</updated>
+      <workItem from="1587334127863" duration="1640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="525" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1587335544791">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="525" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335544791" />
+    <state x="331" y="117" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587334965223">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="331" y="117" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587334965223" />
+    <state width="1373" height="267" key="GridCell.Tab.0.bottom" timestamp="1587335634496">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1373" height="267" key="GridCell.Tab.0.bottom/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335634496" />
+    <state width="1373" height="267" key="GridCell.Tab.0.center" timestamp="1587335634490">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1373" height="267" key="GridCell.Tab.0.center/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335634490" />
+    <state width="1373" height="267" key="GridCell.Tab.0.left" timestamp="1587335634489">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1373" height="267" key="GridCell.Tab.0.left/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335634489" />
+    <state width="1373" height="267" key="GridCell.Tab.0.right" timestamp="1587335634491">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1373" height="267" key="GridCell.Tab.0.right/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335634491" />
+    <state width="1373" height="267" key="GridCell.Tab.1.bottom" timestamp="1587335635349">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1373" height="267" key="GridCell.Tab.1.bottom/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335635349" />
+    <state width="1373" height="267" key="GridCell.Tab.1.center" timestamp="1587335635347">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1373" height="267" key="GridCell.Tab.1.center/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335635347" />
+    <state width="1373" height="267" key="GridCell.Tab.1.left" timestamp="1587335635346">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1373" height="267" key="GridCell.Tab.1.left/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335635346" />
+    <state width="1373" height="267" key="GridCell.Tab.1.right" timestamp="1587335635348">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1373" height="267" key="GridCell.Tab.1.right/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335635348" />
+    <state x="491" y="175" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587335044041">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="491" y="175" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.832/1440.23.1920.1057@0.23.1440.832" timestamp="1587335044041" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Model/RiddleTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
